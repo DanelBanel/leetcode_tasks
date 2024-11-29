@@ -2,3 +2,4 @@ coverage
 pytest
 ruff
 pyright
+pip-tools
