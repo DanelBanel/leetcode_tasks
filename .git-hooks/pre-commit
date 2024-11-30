@@ -2,6 +2,13 @@
 
 set -e
 
+# Run check_file_extensions.sh and exit if it fails
+if ! ./check_file_extensions.sh; then
+    echo -e "\nWARNING: Commit failed due to incorrect file endings, fix before committing"
+    echo -e "\nSee README.md for more info"
+    exit 1
+fi
+
 if command -v ruff &>/dev/null; then
     if ! ruff format --check --diff; then
         echo -e "\nWARNING: Commit failed due to formatting issues, fix before committing"
