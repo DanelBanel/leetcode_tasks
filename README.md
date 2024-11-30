@@ -6,6 +6,8 @@ __NOTE__
 
 Collection of completed LeetCode tasks in various programming languages
 
+Link to LeetCode account: [https://leetcode.com/u/danelbanel/](https://leetcode.com/u/danelbanel/)
+
 In [tasks](tasks/) all tasks that are completed in [LeetCode](https://leetcode.com/) and imported to this repository are.
 In the language specific folders (e.g. [python](python/) and [cplusplus](cplusplus/)) there are symbolic links to the respective tasks in the [tasks](tasks/) folder
 
@@ -16,7 +18,7 @@ New tasks are supposed to be added in the [tasks](tasks/) folder, and during com
 - [ ] Import remaning tasks and create tests
 - [ ] Create script check if all files are in correct folder
 - [ ] pre-commit hook to check if all files are in correct folder
-- [ ] Create script that sort files and creates symlinks (if they don't exist)
+- [ ] Create script that sort files and creates symlinks (if they don't exist) https://www.howtogeek.com/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
 - [ ] Add documentation for above
 - [ ] pre-commit hook to sort files and symlinks (mklink)
 - [x] pre-commit hook on formatting
@@ -40,9 +42,10 @@ pip install -e .
 To create and activate the virtual environment, install the requirements, run:
 
 ```bash
+#python -m pip install --upgrade pip # Optional steps
+#python -m pip install --upgrade virtualenv
 python -m venv ./venv
 source venv/bin/activate
-#python -m pip install --upgrade pip # Optional step
 pip install -r requirements.txt --upgrade
 
 deactivate # To exit the environment
