@@ -16,6 +16,30 @@ New tasks are supposed to be added in the [tasks](tasks/) folder, and during com
 ## TODO list
 - [ ] README info on below 
 - [ ] Import remaning tasks and create tests
+    - [ ] 1
+    - [ ] 7
+    - [ ] 9
+    - [ ] 13
+    - [ ] 14
+    - [ ] 20
+    - [ ] 26
+    - [ ] 27
+    - [ ] 28
+    - [ ] 88
+    - [ ] 121
+    - [ ] 125
+    - [ ] 141
+    - [ ] 169
+    - [ ] 189
+    - [ ] 217
+    - [ ] 242
+    - [ ] 383
+    - [ ] 392
+    - [ ] 1768
+    - [ ] 2089
+    - [ ] 2097
+    - [x] 2441
+    - [x] 2942
 - [ ] Create script check if all files are in correct folder
 - [ ] pre-commit hook to check if all files are in correct folder
 - [ ] Create script that sort files and creates symlinks (if they don't exist) https://www.howtogeek.com/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
