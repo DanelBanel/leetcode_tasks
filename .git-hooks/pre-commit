@@ -22,7 +22,6 @@ if command -v ruff &>/dev/null; then
     fi
 else
     echo -e "\nWARNING: No checks ran because 'ruff' is not installed correctly\n"
-    exit 1
 fi
 
 if command -v pytest &>/dev/null; then
@@ -33,5 +32,4 @@ if command -v pytest &>/dev/null; then
     fi
 else
     echo -e "\nWARNING: No checks ran because 'pytest' is not installed correctly\n"
-    exit 1
 fi

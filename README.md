@@ -15,10 +15,10 @@ New tasks are supposed to be added in the [tasks](tasks/) folder, and during com
 
 ## TODO list
 - [ ] README info on below 
-- [ ] Import remaning tasks and create tests
-    - [ ] 1
-    - [ ] 7
-    - [ ] 9
+- [ ] Import remaning tasks and create tests https://leetcode.com/problemset/?status=AC&page=1
+    - [x] 1
+    - [x] 7
+    - [x] 9
     - [ ] 13
     - [ ] 14
     - [ ] 20
@@ -30,7 +30,7 @@ New tasks are supposed to be added in the [tasks](tasks/) folder, and during com
     - [ ] 125
     - [ ] 141
     - [ ] 169
-    - [ ] 189
+    - [x] 189
     - [ ] 217
     - [ ] 242
     - [ ] 383
