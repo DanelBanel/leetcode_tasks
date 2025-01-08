@@ -14,6 +14,7 @@ In the language specific folders (e.g. [python](python/) and [cplusplus](cpluspl
 New tasks are supposed to be added in the [tasks](tasks/) folder, and during committing, a pre-commit hook creates the symbolic link if it does not exists. This is done by looking at the file ending and finding the appropriate folder.
 
 ## TODO list
+- [ ] TODO fix the programming folders mirrors. It should not be symlinks (or could it?) between tasks folder and the programming language specific folders, but should be kept in track. Symlinks does not work on windows (even through WSL)
 - [ ] README info on below 
 - [ ] Import remaning tasks and create tests https://leetcode.com/problemset/?status=AC&page=1
     - [x] 1

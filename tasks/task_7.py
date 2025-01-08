@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 class Solution:
     def reverse(self, x: int) -> int:
         rev_int = 0
@@ -16,7 +19,6 @@ class Solution:
 
             x //= 10
             print("Remaining: ", x)
-
 
         if inverse:
             rev_int = -rev_int
