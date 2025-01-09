@@ -17,30 +17,30 @@ New tasks are supposed to be added in the [tasks](tasks/) folder, and during com
 - [ ] TODO fix the programming folders mirrors. It should not be symlinks (or could it?) between tasks folder and the programming language specific folders, but should be kept in track. Symlinks does not work on windows (even through WSL)
 - [ ] README info on below 
 - [ ] Import remaning tasks and create tests https://leetcode.com/problemset/?status=AC&page=1
-    - [x] 1
-    - [x] 7
-    - [x] 9
-    - [ ] 13
-    - [ ] 14
-    - [ ] 20
-    - [ ] 26
-    - [ ] 27
-    - [ ] 28
-    - [ ] 88
-    - [ ] 121
-    - [ ] 125
-    - [ ] 141
-    - [ ] 169
-    - [x] 189
-    - [ ] 217
-    - [ ] 242
-    - [ ] 383
-    - [ ] 392
-    - [ ] 1768
-    - [ ] 2089
-    - [ ] 2097
-    - [x] 2441
-    - [x] 2942
+    - 1 [x] task [x] test
+    - 7 [x] task [x] test
+    - 9 [x] task [x] test
+    - 13 [ ] task [ ] test
+    - 14 [ ] task [ ] test
+    - 20 [ ] task [ ] test
+    - 26 [ ] task [ ] test
+    - 27 [ ] task [ ] test
+    - 28 [ ] task [ ] test
+    - 88 [ ] task [ ] test
+    - 121 [ ] task [ ] test
+    - 125 [ ] task [ ] test
+    - 141 [ ] task [ ] test
+    - 169 [ ] task [ ] test
+    - 189 [x] task [x] test
+    - 217 [ ] task [ ] test
+    - 242 [ ] task [ ] test
+    - 383 [ ] task [ ] test
+    - 392 [ ] task [ ] test
+    - 1768 [ ] task [ ] test
+    - 2089 [ ] task [ ] test
+    - 2097 [ ] task [ ] test
+    - 2441 [x] task [x] test
+    - 2942 [x] task [x] test
 - [ ] Create script check if all files are in correct folder
 - [ ] pre-commit hook to check if all files are in correct folder
 - [ ] Create script that sort files and creates symlinks (if they don't exist) https://www.howtogeek.com/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
